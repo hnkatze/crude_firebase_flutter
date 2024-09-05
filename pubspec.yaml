@@ -1,6 +1,6 @@
 name: crude_firebase_flutter
 description: "A new Flutter project."
-publish_to: 'none'
+publish_to: "none"
 version: 0.1.0
 
 environment:
@@ -13,6 +13,12 @@ dependencies:
   firebase_storage: ^12.2.0
   cloud_firestore: ^5.4.0
   intl: ^0.19.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/to-do-list.png"
 
 dev_dependencies:
   flutter_test:
